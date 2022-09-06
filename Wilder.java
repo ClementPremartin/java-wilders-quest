@@ -35,8 +35,8 @@ public class Wilder {
         String isAware;
 
         if(awaring){
-            isAware = "Je m'appelle " + this.firstname + "and i am aware";
-         } else isAware = "Je m'appelle " + this.firstname + "and i am not aware";
+            isAware = "Je m'appelle " + this.firstname + " and i am aware";
+         } else isAware = "Je m'appelle " + this.firstname + " and i am not aware";
 
          return isAware;
     }
