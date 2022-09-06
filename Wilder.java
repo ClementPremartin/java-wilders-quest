@@ -31,7 +31,14 @@ public class Wilder {
 
     //instance method
     public String whoAmI(String firstname, boolean awaring){
-        awaring ? System.out.println("Je m'appelle " + this.firstname + "and i am aware") : System.out.println("Je m'appelle " + this.firstname + "and i am not aware");
+
+        String isAware;
+
+        if(awaring){
+            isAware = "Je m'appelle " + this.firstname + "and i am aware";
+         } else isAware = "Je m'appelle " + this.firstname + "and i am not aware";
+
+         return isAware;
     }
 
 }
